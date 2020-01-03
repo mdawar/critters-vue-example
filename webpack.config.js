@@ -121,7 +121,6 @@ module.exports = (env, argv) => {
 
       isProd && new Critters({
         external: true,
-        minimumExternalSize: 15*1024,
         pruneSource: true,
         compress: true,
         logLevel: 'debug'
